@@ -1,0 +1,39 @@
+/* 
+
+
+*/
+:root{
+ --primaryBackground:#141414;
+ --secondaryBackground:#242424;
+
+}
+
+header{
+	/*background: red	;*/
+}
+select{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: grey;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+option{
+	text-align:center;
+	padding: 10px;
+	background: yellow;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff897;
+}
+body>*{
+	margin: 10px;
+}
